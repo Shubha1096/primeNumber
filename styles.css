@@ -1,0 +1,14 @@
+#Output{
+
+    box-sizing: border-box;
+    width: 30%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid #333333;
+}
+#input{
+
+    padding-right: 3rem;
+
+}
