@@ -4,14 +4,13 @@ var outputDiv = document.querySelector("#Output");
 
 function clickHandler() {
     var inputText = inputnum.value;
+    console.log(inputText);
     var myString = inputText; 
     var array = new Array();
 
     array = myString.split('-');
 
     var newDate = (array[2]);
-
-    
 
     var isPrime = true;
 
